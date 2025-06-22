@@ -1,0 +1,25 @@
+Sait4e CMS License
+Based on the MIT License
+Copyright (c) 2024 Ilia Blagov, Renify LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to use,
+copy, modify, and merge copies of the Software, subject to the following conditions:
+
+1. Personal and commercial use is permitted, including use in client websites or company websites.
+
+2. The Software may not be:
+   - Resold, sublicensed, or otherwise redistributed for financial gain.
+   - Hosted or offered as part of a paid service or Software-as-a-Service (SaaS) platform.
+   - Modified and re-released under a different name or branding.
+
+3. Attribution is required. Users must retain the visible credit text in the footer ("Powered by Sait4e CMS" or similar), unless granted written permission to remove it.
+
+4. This license does not grant permission to use the name “Sait4e CMS”, “Ilia Blagov”, or “Renify LLC” for marketing or endorsement without prior written consent.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.

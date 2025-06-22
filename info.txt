@@ -1,0 +1,85 @@
+──────────────────────────────────────────────
+      SAIT4E CMS - Just Simple. v0.6
+──────────────────────────────────────────────
+
+📦 INSTALLATION
+1. Upload the entire folder to a PHP-compatible server.
+2. Make sure /data/, /gallery/, /maingallery/, and /files/ are writable.
+3. Visit your domain to load index.php.
+4. Admin Panel is accessible at:
+
+   ➤ https://yourdomain.com/admin/index.php
+
+🧑‍💻 ADMIN LOGIN
+Username: admin  
+Password: 123456
+
+(You can change your password inside /admin/passchange.php)
+
+⚙️ ADMIN FEATURES
+- Visual editor for .html pages (CKEditor)
+- Add, edit, delete blog/news posts
+- Upload images (gallery and maingallery)
+- Update header.html / footer.html
+- Modify site config: site title, language, theme, SEO
+- JSON-based flat-file control (no database!)
+
+📁 DIRECTORY STRUCTURE
+
+ROOT/
+├── index.php                 → One-page loader
+├── counter.php / counter.txt→ Visitor counter
+├── LICENSE.txt              → License file
+├── info.txt                 → You're reading it!
+
+/admin/                      → Admin panel
+├── index.php                → Admin dashboard
+├── editor.php               → WYSIWYG page editor
+├── blogadmin.php            → Blog/news manager
+├── passchange.php           → Change admin password
+├── picupload*.php           → Image upload tools
+└── data/news.json           → Blog data file
+
+/data/                       → Core CMS files
+├── config.json              → Site settings
+├── pages.json               → Menu structure
+├── footer.html              → Footer HTML
+├── header.html              → Header HTML
+├── news.json                → Backup blog file
+├── lang.bg.json             → JSON language fallback
+├── gallery*.php             → Gallery modules
+└── slideshowbig.php         → Slideshow gallery
+
+/pages/                      → Page content
+├── home.bg.html             → Homepage (Bulgarian)
+└── home.en.html             → Homepage (English)
+
+/lang/                       → PHP language definitions
+├── bg.php                   → Bulgarian
+└── en.php                   → English
+
+/gallery/                    → Default gallery image storage  
+/maingallery/                → Advanced gallery image storage  
+/files/                      → Optional file uploads
+
+🌍 MULTILANGUAGE
+- Supports both Bulgarian and English
+- Language files: /lang/bg.php and /lang/en.php
+- Page files: /pages/home.bg.html and home.en.html
+
+📈 VISITOR COUNTER
+- Enabled by default (counter.php / counter.txt)
+
+🔒 LICENSE TERMS
+- ✅ Free to use, modify, and redistribute
+- ❌ Not allowed to resell or remove the footer credit
+- ⚠️ Footer must contain: “Made with 🩷 sait4e.online”
+
+🌐 RESOURCES
+- Live Demo: https://www.sait4e.online/demo  
+- Website:   https://www.sait4e.online  
+- Support:   Available through website contact form
+
+──────────────────────────────────────────────
+     Developed by Renify (Илия Б.), Bulgaria 🇧🇬
+──────────────────────────────────────────────
